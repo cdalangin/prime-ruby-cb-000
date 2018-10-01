@@ -24,6 +24,6 @@ def prime?(n)
         return false
       end
     end
-  true
+  return true
   end
 end
