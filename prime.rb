@@ -22,9 +22,8 @@ def prime?(n)
       counter += 1
       if counter <=3
         return false
-      else
-        return true
       end
     end
   end
+  return true
 end
