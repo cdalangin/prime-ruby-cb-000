@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(n)
   counter = 0
-  if n <= 0
+  if n <= 0 || n == 1
     return false
   elsif (n % 1 == 0) && (n % n == 0)
     return true
