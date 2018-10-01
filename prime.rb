@@ -18,7 +18,6 @@ def prime?(n)
   counter = 0
   if n >= 0
     return false
-  end
   numbers = (1..100000).to_a
   numbers.map do |num|
     if n % num == 0
@@ -27,5 +26,6 @@ def prime?(n)
         return false
       end
     end
+  end
   end
 end
