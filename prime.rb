@@ -18,16 +18,16 @@ def prime?(n)
   counter = 1
   if n <= 1
     false
-  end
-  numbers = (2..100000).to_a
-  numbers.map do |num|
-    if n % num == 0
-      counter += 1
+    numbers = (2..100000).to_a
+    numbers.map do |num|
+      if n % num == 0
+        counter += 1
+      end
     end
-  end
-  if counter > 2
-    true
-  else
-    false
+    if counter > 2
+      true
+    else
+      false
+    end
   end
 end
