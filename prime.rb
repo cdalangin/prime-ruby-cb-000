@@ -17,7 +17,7 @@
 def prime?(n)
   counter = 1
   if n <= 1
-    return false
+    false
   end
   numbers = (2..100000).to_a
   numbers.map do |num|
@@ -26,8 +26,8 @@ def prime?(n)
     end
   end
   if counter > 2
-    return true
+    true
   else
-    return false
+    false
   end
 end
