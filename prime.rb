@@ -18,7 +18,7 @@ def prime?(n)
   counter = 0
   numbers = (1..100000).to_a
   numbers.map do |num|
-    if n % num == 0
+    while n % num == 0
       counter += 1
       if counter >= 3
         return false
