@@ -5,7 +5,7 @@ def prime?(n)
     return false
   elsif (n % 1 == 0) && (n % n == 0) && (n > 1)
     return true
-    numbers = (2..10000).to_a 
+    numbers = (2..10000).to_a
     numbers.map do |num|
       if n % num == 0
         return false
