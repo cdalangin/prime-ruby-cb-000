@@ -26,5 +26,7 @@ def prime?(n)
   end
   if counter > 2
     return true
+  else
+    return false
   end
 end
