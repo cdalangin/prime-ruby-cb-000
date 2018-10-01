@@ -20,11 +20,11 @@ def prime?(n)
   numbers.map do |num|
     if n % num == 0
       counter += 1
-    end
       if counter <=3
         return false
       else
         return true
       end
+    end
   end
 end
